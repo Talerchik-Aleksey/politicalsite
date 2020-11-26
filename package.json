@@ -1,0 +1,15 @@
+{
+  "name": "politicalsite",
+  "version": "1.0.0",
+  "description": "Everyone loves good political humor and often makes fun of politicians and judges. This site will be the place where you (and others, of course) can post a mocking hockey about a politician's latest oversight or activities. It will be especially relevant in the pre-election season.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {}
+}
