@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Mozer-SemiBold";
+  font-display: swap;
+  src: url("../fonts/Mozer-SemiBold.woff") format("woff"), url("../fonts/Mozer-SemiBold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RobotoSlab-VariableFont_wght";
+  font-display: swap;
+  src: url("../fonts/RobotoSlab-VariableFont_wght.woff") format("woff"), url("../fonts/RobotoSlab-VariableFont_wght.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
