@@ -22,8 +22,10 @@ header {
 
   .one_line_div {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
     img {
       width: 1rem;
     }
@@ -35,14 +37,24 @@ header {
       background-size: 0% 2px;
       transition: background-size 0.3s;
 
-      padding: 25px;
-
-       
       color: #2b2b2b;
+      padding: 10px;
     }
 
     a:hover {
       background-size: 100% 2px;
     }
+  }
+}
+
+@media (max-width: 500px) {
+  .one_line_div {
+    flex-direction: column;
+  }
+  .navigation {
+    text-align: center;
+  }
+  .logo {
+    text-align: center;
   }
 }
