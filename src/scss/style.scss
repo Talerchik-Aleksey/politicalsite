@@ -1,12 +1,48 @@
 @mixin font($font_name, $file_name, $weight, $style) {
-
   @font-face {
-  font-family: $font_name;
-  font-display: swap;
-  src: url("../fonts/#{$file_name}.woff") format("woff"), url("../fonts/#{$file_name}.woff2") format("woff2");
-  font-weight: #{$weight};
-  font-style: #{$style};
+    font-family: $font_name;
+    font-display: swap;
+    src: url("../fonts/#{$file_name}.woff") format("woff"),
+      url("../fonts/#{$file_name}.woff2") format("woff2");
+    font-weight: #{$weight};
+    font-style: #{$style};
   }
 }
 
 @import "fonts";
+@import "nullStyle";
+
+header {
+  font-family: RobotoSlab-Bold;
+  padding: 15px;
+  .main {
+    width: 75vw;
+    margin: 0 auto;
+  }
+
+  .one_line_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 1rem;
+    }
+    a {
+      text-decoration: none;
+      background-image: linear-gradient(currentColor, currentColor);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size 0.3s;
+
+      padding: 25px;
+
+       
+      color: #2b2b2b;
+    }
+
+    a:hover {
+      background-size: 100% 2px;
+    }
+  }
+}
