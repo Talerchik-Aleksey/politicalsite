@@ -50,8 +50,12 @@ header {
 @media (max-width: 500px) {
   .one_line_div {
     flex-direction: column;
+    height: 100%;
   }
   .navigation {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
   }
   .logo {
