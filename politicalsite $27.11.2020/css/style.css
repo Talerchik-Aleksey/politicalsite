@@ -1,10 +1,18 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "RobotoSlab-Bold";
+  font-family: "BalsamiqSans-Bold";
   font-display: swap;
-  src: url("../fonts/RobotoSlab-Bold.woff") format("woff"), url("../fonts/RobotoSlab-Bold.woff2") format("woff2");
-  font-weight: 700;
+  src: url("../fonts/BalsamiqSans-Bold.woff") format("woff"), url("../fonts/BalsamiqSans-Bold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BalsamiqSans-Regular";
+  font-display: swap;
+  src: url("../fonts/BalsamiqSans-Regular.woff") format("woff"), url("../fonts/BalsamiqSans-Regular.woff2") format("woff2");
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -12,6 +20,14 @@
   font-family: "RobotoSlab-Regular";
   font-display: swap;
   src: url("../fonts/RobotoSlab-Regular.woff") format("woff"), url("../fonts/RobotoSlab-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RobotoSlab-Bold";
+  font-display: swap;
+  src: url("../fonts/RobotoSlab-Bold.woff") format("woff"), url("../fonts/RobotoSlab-Bold.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -106,14 +122,34 @@ h6 {
   font-weight: 400;
 }
 
+.main {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+.main_name {
+  font-family: BalsamiqSans-Regular;
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.main_paragraph {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: RobotoSlab-Regular;
+}
+
+.mem {
+  width: 40%;
+  height: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
 header {
   font-family: RobotoSlab-Bold;
   padding: 15px;
-}
-
-header .main {
-  width: 75vw;
-  margin: 0 auto;
 }
 
 header .one_line_div {
@@ -152,6 +188,10 @@ header .one_line_div a {
 
 header .one_line_div a:hover {
   background-size: 100% 2px;
+}
+
+.main_name {
+  text-align: center;
 }
 
 @media (max-width: 500px) {

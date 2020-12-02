@@ -12,14 +12,35 @@
 @import "fonts";
 @import "nullStyle";
 
+.main {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+.main_name {
+  font-family: BalsamiqSans-Regular;
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.main_paragraph {
+  margin-top: 50px;
+  margin-bottom: 50px; 
+
+  text-align: center;
+  font-family: RobotoSlab-Regular;
+}
+
+.mem {
+  width: 40%;
+  height: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
 header {
   font-family: RobotoSlab-Bold;
   padding: 15px;
-  .main {
-    width: 75vw;
-    margin: 0 auto;
-  }
-
   .one_line_div {
     display: flex;
     flex-wrap: wrap;
@@ -45,6 +66,10 @@ header {
       background-size: 100% 2px;
     }
   }
+}
+
+.main_name {
+  text-align: center
 }
 
 @media (max-width: 500px) {
