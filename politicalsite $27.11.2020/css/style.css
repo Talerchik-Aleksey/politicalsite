@@ -4,7 +4,7 @@
   font-family: "BalsamiqSans-Bold";
   font-display: swap;
   src: url("../fonts/BalsamiqSans-Bold.woff") format("woff"), url("../fonts/BalsamiqSans-Bold.woff2") format("woff2");
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -28,7 +28,7 @@
   font-family: "RobotoSlab-Bold";
   font-display: swap;
   src: url("../fonts/RobotoSlab-Bold.woff") format("woff"), url("../fonts/RobotoSlab-Bold.woff2") format("woff2");
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -122,7 +122,7 @@ h6 {
   font-weight: 400;
 }
 
-.main {
+.main_main {
   width: 75vw;
   margin: 0 auto;
 }
@@ -145,6 +145,7 @@ h6 {
   height: 40%;
   display: block;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 header {
@@ -192,6 +193,39 @@ header .one_line_div a:hover {
 
 .main_name {
   text-align: center;
+}
+
+.about_us {
+  font-family: BalsamiqSans-Regular;
+  padding-top: 20px;
+  background-color: #f6f6f6;
+}
+
+.about_us .main_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_us h2 {
+  text-align: center;
+  font-family: BalsamiqSans-Bold;
+  font-size: 25px;
+}
+
+.about_us .img_about {
+  width: 38vw;
+}
+
+.about_us .about_text {
+  font-family: BalsamiqSans-Regular;
+  font-size: 10px;
 }
 
 @media (max-width: 500px) {

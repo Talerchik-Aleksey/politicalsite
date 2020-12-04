@@ -12,7 +12,7 @@
 @import "fonts";
 @import "nullStyle";
 
-.main {
+.main_main {
   width: 75vw;
   margin: 0 auto;
 }
@@ -36,6 +36,7 @@
   height: 40%;
   display: block;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 header {
@@ -70,6 +71,33 @@ header {
 
 .main_name {
   text-align: center
+}
+
+.about_us {
+  font-family: BalsamiqSans-Regular;
+  
+  .main_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h2 {
+    text-align: center;
+    font-family: BalsamiqSans-Bold;
+    font-size: 25px;
+  }
+
+  .img_about {
+    width: 38vw;
+  }
+
+  .about_text {
+    font-family: BalsamiqSans-Regular;
+    font-size: 10px;
+  }
+  padding-top: 20px;
+  background-color: #f6f6f6;
 }
 
 @media (max-width: 500px) {
