@@ -195,6 +195,12 @@ header .one_line_div a:hover {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+  font-family: BalsamiqSans-Bold;
+  font-size: 25px;
+}
+
 .about_us {
   font-family: BalsamiqSans-Regular;
   padding-top: 20px;
@@ -214,12 +220,6 @@ header .one_line_div a:hover {
 
 .about_us .main_main ol {
   margin-left: 50px;
-}
-
-.about_us h2 {
-  text-align: center;
-  font-family: BalsamiqSans-Bold;
-  font-size: 25px;
 }
 
 .about_us .img_about {

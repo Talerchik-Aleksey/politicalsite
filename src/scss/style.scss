@@ -73,6 +73,12 @@ header {
   text-align: center
 }
 
+h2 {
+  text-align: center;
+  font-family: BalsamiqSans-Bold;
+  font-size: 25px;
+}
+
 .about_us {
   font-family: BalsamiqSans-Regular;
   
@@ -85,11 +91,6 @@ header {
     }
   }
 
-  h2 {
-    text-align: center;
-    font-family: BalsamiqSans-Bold;
-    font-size: 25px;
-  }
 
   .img_about {
     width: 30vw;
